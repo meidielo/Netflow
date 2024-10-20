@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #721c24;
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
+
+.error-box {
+    border: 1px solid #f5c6cb;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Ensure text is centered */
+    width: 50%; /* Adjust the width to control box size */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}

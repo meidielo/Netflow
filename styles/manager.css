@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logout-container {
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px; /* Adds space between each input element */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.search-form input, .search-form select, .search-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+th a:hover {
+    color: #333;
+}
+
+th a:after {
+    content: ' ';
+    margin-left: 5px;
+}
+
+th a.asc:after {
+    content: '↑';
+}
+
+th a.desc:after {
+    content: '↓';
+}
+
+
+table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    text-align: center;
+}
+
+.status-update, .delete-order {
+    display: inline-block;
+    padding: 10px 20px; /* Make padding the same for both */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.status-update {
+    background-color: #000;
+    border: none;
+}
+
+.delete-order {
+    background-color: #dc3545;
+    border: none;
+}
+
+.status-update:hover, .delete-order:hover {
+    opacity: 0.9;
+}
+
+.error, .success {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
